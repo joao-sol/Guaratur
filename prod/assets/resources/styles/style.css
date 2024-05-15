@@ -16,3 +16,28 @@ main {
     color: inherit;
 }
 
+h4{
+    /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1980,32,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+    --step--2: clamp(0.6944rem, 0.5816rem + 0.5644vi, 1.28rem);
+    --step--1: clamp(0.8333rem, 0.6855rem + 0.739vi, 1.6rem);
+    --step-0: clamp(1rem, 0.8072rem + 0.9639vi, 2rem);
+    --step-1: clamp(1.2rem, 0.9494rem + 1.253vi, 2.5rem);
+    --step-2: clamp(1.44rem, 1.1152rem + 1.6241vi, 3.125rem);
+    --step-3: clamp(1.728rem, 1.3081rem + 2.0995vi, 3.9063rem);
+    --step-4: clamp(2.0736rem, 1.5321rem + 2.7077vi, 4.8828rem);
+    --step-5: clamp(2.4883rem, 1.7914rem + 3.4845vi, 6.1035rem);
+  }
+}
+
+.card-image .card-tittle{
+    --step--2: clamp(0.6944rem, 0.5816rem + 0.5644vi, 1.28rem);
+    --step--1: clamp(0.8333rem, 0.6855rem + 0.739vi, 1.6rem);
+    --step-0: clamp(1rem, 0.8072rem + 0.9639vi, 2rem);
+    --step-1: clamp(1.2rem, 0.9494rem + 1.253vi, 2.5rem);
+    --step-2: clamp(1.44rem, 1.1152rem + 1.6241vi, 3.125rem);
+    --step-3: clamp(1.728rem, 1.3081rem + 2.0995vi, 3.9063rem);
+    --step-4: clamp(2.0736rem, 1.5321rem + 2.7077vi, 4.8828rem);
+    --step-5: clamp(2.4883rem, 1.7914rem + 3.4845vi, 6.1035rem);
+}

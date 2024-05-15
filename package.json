@@ -1,0 +1,23 @@
+{
+  "name": "materialize",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-sol/Guaratur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joao-sol/Guaratur/issues"
+  },
+  "homepage": "https://github.com/joao-sol/Guaratur#readme"
+}

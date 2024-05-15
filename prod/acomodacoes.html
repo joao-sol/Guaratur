@@ -14,7 +14,7 @@
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <!-- styles -->
-    <link rel="stylesheet" href="/prod/assets/sass/materialize.css">
+    <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css">
     <link rel="stylesheet" href="assets/resources/styles/style.css">
 
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -24,7 +24,7 @@
 
     <!-- navbar -->
     <div class="navbar-fixed">
-        <nav>
+        <nav class="blue lighten-1">
             <div class="container">
                 <div class="nav-wrapper">
                     <a href="#home" class="brand-logo">Guaratur</a>
@@ -34,16 +34,13 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <a href="#home">Início</a>
+                            <a href="index.html">Início</a>
                         </li>
                         <li>
                             <a href="#search">Busca</a>
                         </li>
                         <li>
                             <a href="#popular">Pontos Turísticos</a>
-                        </li>
-                        <li>
-                            <a href=acomodacoes.html>Acomodações em Guarapuava</a>
                         </li>
                         <li>
                             <a href=reservas.html>Minhas reservas</a>
@@ -64,16 +61,13 @@
     <!-- painel de navegação lateral -->
     <ul class="sidenav" id="slide-out">
         <li>
-            <a href="#home">Início</a>
+            <a href="index.html">Início</a>
         </li>
         <li>
             <a href="#search">Busca</a>
         </li>
         <li>
             <a href="#popular">Pontos Turísticos</a>
-        </li>
-        <li>
-            <a href="acomodacoes.html">Acomodações em Guarapuava</a>
         </li>
         <li>
             <a href=reservas.html>Minhas reservas</a>
@@ -130,70 +124,26 @@
         </section>
         <!-- section - slider -->
 
-        <!-- section - busca-->
-        <section id="search" class="blue lighten-1 white-text center scrollspy">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        <h3>Busca por Pontos Turísticos</h3>
-                        <div class="input-field">
-                            <input class="white grey-text autocomplete" style="padding-left:10px" type="text"
-                                placeholder="Praça da Fé, Parque do Lago, etc." id="autocomplete-input">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- section - busca -->
-
-        <!-- section - ícones -->
-        <section class="section grey lighten-4 center">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m4">
-                        <div class="card-panel">
-                            <i class="material-icons large teal-text">room</i>
-                            <h4>O que fazer?</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nobis!</p>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <a href="/dev/index.html" class="link-card-panel">
-                            <div class="card-panel">
-                                <i class="material-icons large teal-text">store</i>
-                                <h4>Acomodações</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nobis!</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card-panel">
-                            <i class="material-icons large teal-text">airplanemode_active</i>
-                            <h4>Transporte</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nobis!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- section - ícones -->
-
-        <!-- section: pontos turísticos -->
+        <!-- section - avaliacoes -->
         <section id="popular" class="section scrollspy">
             <div class="container">
                 <div class="row">
                     <h4 class="center">
-                        <span class="teal-text">Pontos Turísticos</span>
+                        <span class="teal-text">Acomodações em Guarapuava</span>
                     </h4>
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="assets/resources/images/lagoa-das-lagrimas.jpg" alt="">
-                                <span class="card-title">Lagoa das Lágrimas</span>
+                                <img src="https://res.cloudinary.com/dx0kvnqnb/image/upload/c6lp18qu8s9xcno3dqh3.jpg" alt="">
+                                <span class="card-title">Adria</span>
                             </div>
                             <div class="card-content">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit tempore
-                                    architecto laudantium veritatis accusantium!
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_half</i>
+                                <p>Situado em Guarapuava, o Hotel Veritas dispõe de um jardim. O hotel oferece acesso Wi-Fi gratuito e estacionamento privado gratuito. No hotel, cada quarto inclui uma secretária. Todos os quartos estão equipados com banheiro compartilhado e chuveiro, e algumas unidades do Hotel Veritas possuem varanda. As unidades dispõem de guarda-roupa. O aeroporto mais próximo é o Aeroporto Tancredo Thomas de Faria, a 9 km do alojamento. Diária R$2443,00
                                 </p>
                             </div>
                         </div>
@@ -201,12 +151,17 @@
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="assets/resources/images/parque-do-lago.jpg" alt="">
-                                <span class="card-title">Parque do Lago</span>
+                                <img src="https://res.cloudinary.com/dx0kvnqnb/image/upload/dwmry8ylyf7g8se5wac9.jpg" alt="">
+                                <span class="card-title">Spaço vale do Jordão</span>
                             </div>
                             <div class="card-content">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit tempore
-                                    architecto laudantium veritatis accusantium!
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_half</i>
+                                <p>O Spaço Vale do Jordão Guarapuava oferece piscina ao ar livre, jardim, lounge compartilhado e terraço em Guarapuava. Este hotel 3 estrelas oferece serviço de quarto, recepção 24 horas e Wi-Fi gratuito. Você também pode desfrutar do bar.
+                                Todos os quartos possuem varanda. Com banheiro privativo com bidê e produtos de banho gratuitos, alguns quartos do Spaço Vale do Jordão Guarapuava também oferecem vista da montanha. Todos os quartos possuem TV de tela plana a cabo. Diária R$1820,00
                                 </p>
                             </div>
                         </div>
@@ -214,12 +169,74 @@
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="assets/resources/images/praca-da-fe.jpg" alt="">
-                                <span class="card-title">Praça da Fé</span>
+                                <img src="https://res.cloudinary.com/dx0kvnqnb/image/upload/x55xswqa26lxlkw3z62x.jpg" alt="">
+                                <span class="card-title">Atalaia Palace</span>
                             </div>
                             <div class="card-content">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit tempore
-                                    architecto laudantium veritatis accusantium!
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_border</i>
+                                <p>Este hotel está localizado no centro de Guarapuava, a 600 m do belo Parque do Lago. A propriedade oferece um restaurante no local e quartos com ar-condicionado, Wi-Fi gratuito e estacionamento de cortesia.
+                                Os quartos do Atalaia Palace Hotel têm TV a cabo, frigobar e banheiro privativo com chuveiro. Além disso, a recepção está 24 horas à sua disposição.
+                                A Estação Rodoviária de Guarapuava fica a 3 km do Atalaia Palace, enquanto as universidades Unicentro e UTFPR estão a cerca de 20 minutos de carro. Diária R$1985,00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/dx0kvnqnb/image/upload/pxwtkrygy4lq8d32ms8s.jpg" alt="">
+                                <span class="card-title">Royal Trip</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_half</i>
+                                <p>O Royal Trip Hotel está localizado em Guarapuava. Este hotel 2 estrelas oferece recepção 24 horas. O hotel também oferece WiFi e estacionamento privativo gratuitos.
+                                Todos os quartos incluem mesa de trabalho, TV de tela plana, banheiro privativo, roupa de cama e toalhas. Todas as unidades incluem guarda-roupa.               
+                                O aeroporto mais próximo é o Aeroporto Tancredo Thomas de Faria, a 7 km do Royal Trip Hotel. Diária R$1400,00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/dx0kvnqnb/image/upload/hgul9xx3poebl5s9im0w.jpg" alt="">
+                                <span class="card-title">Veritas</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_border</i>
+                                <i class="material-icons">star_border</i>
+                                <p>Situado em Guarapuava, o Hotel Veritas dispõe de um jardim. O hotel oferece acesso Wi-Fi gratuito e estacionamento privado gratuito. No hotel, cada quarto inclui uma secretária. Todos os quartos estão equipados com banheiro compartilhado e chuveiro, e algumas unidades do Hotel Veritas possuem varanda. As unidades dispõem de guarda-roupa. O aeroporto mais próximo é o Aeroporto Tancredo Thomas de Faria, a 9 km do alojamento. Diária R$665,00                          
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://res.cloudinary.com/dx0kvnqnb/image/upload/sec4kyxoncc5u85wme91.jpg" alt="">
+                                <span class="card-title">Kuster</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star</i>
+                                <i class="material-icons">star_half</i>
+                                <p>Este hotel está localizado no centro da cidade de Guarapuava e oferece quartos climatizados com acesso Wi-Fi e estacionamento, ambos gratuitos. Para sua comodidade, restaurante, bar, academia e recepção 24 horas estão disponíveis.
+                                Os quartos do Kuster Hotel dispõem de TV de LCD com canais a cabo, além de frigobar. O banheiro privativo inclui chuveiro.
+                                O Parque do Jordão e o das Araucárias estão ambos situados a cerca de 9 km. A atração natural Salto do São Francisco fica a 50 km do Kuster.
+                                Diária R$2023,00
                                 </p>
                             </div>
                         </div>
@@ -227,18 +244,6 @@
                 </div>
             </div>
         </section>
-        <!-- section: pontos turísticos -->
-     <!-- section: botão contato -->
-        <section>
-            <div class="row">
-                <div class="col s12 center">
-                    <a href="#contact" class="btn btn-large grey darken-3">
-                        <i class="material-icons left">send</i>Entre em contato
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- section: botão contato -->
 
         <!-- section - redes sociais -->
         <section class="section blue lighten-1 white-text center">
